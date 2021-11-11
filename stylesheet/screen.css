@@ -1424,7 +1424,8 @@ body.s_layout_fixed #wrapper {
 	height: 60px;
 	margin: 30px 10px 30px 0;
 	text-indent: -1000em;
-	background: url(../images/shoppica_logo.png) no-repeat center;
+	background: url(../images/security.png) no-repeat center;
+  background-size: contain;
 }
 
 #language_switcher,
