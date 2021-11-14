@@ -28,7 +28,6 @@
     "webpack-svg-spritely": "^2.0.0"
   },
   "dependencies": {
-    "postcss-loader": "^6.2.0",
-    "svg-sprite-html-webpack": "^2.4.0"
+    "postcss-loader": "^6.2.0"
   }
 }

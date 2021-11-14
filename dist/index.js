@@ -47,7 +47,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "../basic/images/facebook.svg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/svg_icons/facebook.svg");
 
 /***/ }),
 
@@ -62,7 +62,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "../basic/images/google.svg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/svg_icons/google.svg");
 
 /***/ }),
 
@@ -77,7 +77,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "../basic/images/instagram.svg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/svg_icons/instagram.svg");
 
 /***/ }),
 
@@ -92,25 +92,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "../basic/images/youtube.svg");
-
-/***/ }),
-
-/***/ "./. sync recursive":
-/*!*****************!*\
-  !*** ././ sync ***!
-  \*****************/
-/***/ ((module) => {
-
-function webpackEmptyContext(req) {
-	var e = new Error("Cannot find module '" + req + "'");
-	e.code = 'MODULE_NOT_FOUND';
-	throw e;
-}
-webpackEmptyContext.keys = () => ([]);
-webpackEmptyContext.resolve = webpackEmptyContext;
-webpackEmptyContext.id = "./. sync recursive";
-module.exports = webpackEmptyContext;
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/svg_icons/youtube.svg");
 
 /***/ })
 
@@ -208,9 +190,7 @@ var __webpack_exports__ = {};
 /*!****************!*\
   !*** ./app.js ***!
   \****************/
-console.log(__webpack_require__("./. sync recursive"));
 const icons = __webpack_require__("./icons sync \\.(svg)$");
-console.log(icons);
 const myName=  'Serg';
 console.log('js init', myName);
 })();
@@ -227,4 +207,4 @@ __webpack_require__.r(__webpack_exports__);
 })();
 
 /******/ })()
-;/*** WebpackSvgSpritely ***/ (() => { var WP_SVG_XHR = new XMLHttpRequest(); WP_SVG_XHR.open('GET', '/img//svg_sprite.svg', true); WP_SVG_XHR.onload = function() { if (!WP_SVG_XHR.responseText || WP_SVG_XHR.responseText.substr(0, 4) !== '<svg') { throw Error('Invalid SVG Response'); } if (WP_SVG_XHR.status < 200 || WP_SVG_XHR.status >= 300) { return; } var div = document.createElement('div'); div.innerHTML = WP_SVG_XHR.responseText; document.body.insertBefore(div, document.body.childNodes[0]); }; WP_SVG_XHR.send(); })();
+;/*** WebpackSvgSpritely ***/ (() => { var WP_SVG_XHR = new XMLHttpRequest(); WP_SVG_XHR.open('GET', '/img/svg_sprite.svg', true); WP_SVG_XHR.onload = function() { if (!WP_SVG_XHR.responseText || WP_SVG_XHR.responseText.substr(0, 4) !== '<svg') { throw Error('Invalid SVG Response'); } if (WP_SVG_XHR.status < 200 || WP_SVG_XHR.status >= 300) { return; } var div = document.createElement('div'); div.innerHTML = WP_SVG_XHR.responseText; document.body.insertBefore(div, document.body.childNodes[0]); }; WP_SVG_XHR.send(); })();
