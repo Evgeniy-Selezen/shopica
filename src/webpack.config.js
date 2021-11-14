@@ -14,7 +14,7 @@ module.exports = {
         new MiniCssExtractPlugin(),
         new CopyPlugin({
             patterns: [
-                { from: "ignore/develop" },
+                { from: "ignore/production" },
             ],
         })
     ],
