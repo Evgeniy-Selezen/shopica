@@ -4,8 +4,11 @@
   "description": "treining webpack",
   "private": true,
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack --watch"
+    "build": "webpack --config webpack.config.prod.js && npm run add",
+    "build dev": "webpack --config webpack.config.js && npm run rm",
+    "watch": "webpack --watch --config webpack.config.js",
+    "rm": "git rm -r --cached . && git add .",
+    "add": "git add ."
   },
   "author": "Serg Biletskii",
   "license": "ISC",

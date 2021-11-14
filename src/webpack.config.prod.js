@@ -6,7 +6,6 @@ const CopyPlugin = require("copy-webpack-plugin");
 module.exports = {
     mode: 'development',
     entry: { index: ['./app.js', './scss/base.scss'] },
-    devtool: 'inline-source-map',
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Output Management',
@@ -14,7 +13,7 @@ module.exports = {
         new MiniCssExtractPlugin(),
         new CopyPlugin({
             patterns: [
-                { from: "ignore/develop" },
+                { from: "ignore/production" },
             ],
         })
     ],
@@ -33,10 +32,6 @@ module.exports = {
                     "sass-loader",
                 ],
             },
-            // {
-            //     test: /\.css$/i,
-            //     use: ['style-loader', 'css-loader'],
-            // },
             {
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
                 type: 'asset/resource',
