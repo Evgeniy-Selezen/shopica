@@ -7,8 +7,8 @@
     "build": "webpack --config webpack.config.prod.js && npm run add",
     "build dev": "webpack --config webpack.config.js && npm run rm",
     "watch": "webpack --watch --config webpack.config.js",
-    "rm": "git rm -r --cached . && git add .",
-    "add": "git add ."
+    "rm": "git rm -r --cached ../dist/ && git add ../dist/",
+    "add": "git add ../dist/"
   },
   "author": "Serg Biletskii",
   "license": "ISC",
