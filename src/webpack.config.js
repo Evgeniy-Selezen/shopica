@@ -14,14 +14,14 @@ module.exports = {
         new MiniCssExtractPlugin(),
         new CopyPlugin({
             patterns: [
-                { from: "ignore/develop" },
+                { from: "ignore/production" },
             ],
         })
     ],
     output: {
         path: path.resolve(__dirname, '../dist'),
         filename: '[name].js',
-        clean: false
+        clean: true
     },
     module: {
         rules: [
