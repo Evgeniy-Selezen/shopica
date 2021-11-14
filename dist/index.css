@@ -1,0 +1,13 @@
+/*!***************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./scss/base.scss ***!
+  \***************************************************************************************************************************************************/
+.button {
+  background-color: gray; }
+
+.test {
+  color: #003cff;
+  background-color: blue;
+  background-image: url(d349ab7cfe4526802226.png); }
+  .test img {
+    max-width: 100%; }
+
