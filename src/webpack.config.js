@@ -1,14 +1,11 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackSVGSpritely = require('webpack-svg-spritely');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const CopyPlugin = require("copy-webpack-plugin");
-// console.log(path.resolve(__dirname, '/icons'));
 
 module.exports = {
     mode: 'development',
     entry: {
-        index: ['./app.js', './scss/base.scss'],
+        index: ['./scss/base.scss'],
     },
     devtool: 'inline-source-map',
     output: {
@@ -60,19 +57,11 @@ module.exports = {
         ],
     },
     plugins: [
-        new HtmlWebpackPlugin({
-            title: 'Output Management',
-        }),
         new WebpackSVGSpritely({
             output: '/img',
             filename: 'svg_sprite.svg',
             // combine: true,
         }),
-        new MiniCssExtractPlugin(),
-        new CopyPlugin({
-            patterns: [
-                { from: "ignore/develop" },
-            ],
-        })
+        new MiniCssExtractPlugin()
     ],
 };

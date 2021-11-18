@@ -4,11 +4,9 @@
   "description": "training webpack",
   "private": true,
   "scripts": {
-    "build": "webpack --config webpack.config.prod.js && npm run add",
+    "build": "webpack --config webpack.config.prod.js",
     "build dev": "webpack --config webpack.config.js",
-    "watch": "webpack --watch --config webpack.config.js",
-    "rm": "git rm -r --cached ../dist/ && git add ../dist/",
-    "add": "git add ../dist/"
+    "watch": "webpack --watch --config webpack.config.js"
   },
   "author": "Serg Biletskii",
   "license": "ISC",
