@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
-    "build dev": "webpack --config webpack.config.js",
+    "build_dev": "webpack --config webpack.config.js",
     "watch": "webpack --watch --config webpack.config.js"
   },
   "author": "Serg Biletskii",
@@ -26,6 +26,7 @@
     "webpack-svg-spritely": "^2.0.0"
   },
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "postcss-loader": "^6.2.0"
   }
 }
