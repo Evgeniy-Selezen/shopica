@@ -1,3 +1,29 @@
+
 .banner {
   background-image: url("../../images/banner.jpg");
+  height: 516px;
+
+  &__content {
+    text-align: right;
+    padding-top: 70px;
+  }
+
+  &__text {
+    max-width: 500px;
+    margin-left: auto;
+
+  }
+}
+.top {
+  background-color: #43b1d2;
+  color: #494848;
+}
+.top_link {
+  color: #494848;
+}
+.top_link:hover {
+  color: #494848;
+}
+.top_links {
+  justify-content: flex-end;
 }
