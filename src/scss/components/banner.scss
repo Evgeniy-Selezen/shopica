@@ -28,7 +28,6 @@
   justify-content: flex-end;
 }
 .logo {
-  padding-top: 10px;
   padding-left: 5px;
 }
 .number {
@@ -39,4 +38,19 @@
 }
 .nav-link {
   align-content: flex-end;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  p {
+    margin-bottom: 0;
+  }
+}
+.header__phone {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  p {
+    margin-bottom: 0;
+  }
 }
