@@ -6,6 +6,7 @@ module.exports = {
     mode: 'development',
     entry: {
         index: ['./scss/base.scss'],
+        medical: "./scss/medical.scss",
     },
     devtool: 'inline-source-map',
     output: {

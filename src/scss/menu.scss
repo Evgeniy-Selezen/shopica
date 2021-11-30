@@ -1,0 +1,16 @@
+.menu {
+  list-style: none;
+  display: flex;
+
+  &__item {
+    padding-left: 15px;
+  }
+
+  &__link {
+    color: #494848;
+    text-decoration: none;
+   &.active{
+      color: #ffffff;
+    }
+  }
+}
