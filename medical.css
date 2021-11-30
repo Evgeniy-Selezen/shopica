@@ -132,4 +132,26 @@ header {
 .kart {
     border: 3px solid #43b1d2;
     padding: 15px;
+    margin-bottom: 24px;
+}
+.cabinet_button {
+    display: flex;
+    background-color: #cbd4e6;
+    color: #000000;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.button_centre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centre_line {
+    border: 2px solid #e3e6ea;
+    padding: 15px;
 }
